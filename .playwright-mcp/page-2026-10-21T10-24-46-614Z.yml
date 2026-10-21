@@ -1,0 +1,226 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - text: This is a demo intended for testing. Data and images are provided by
+      - link "TMDB" [ref=e5] [cursor=pointer]:
+        - /url: https://www.themoviedb.org
+      - text: .
+    - generic [ref=e7]:
+      - banner [ref=e8]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - button "Open navigation menu" [ref=e12] [cursor=pointer]
+            - link "Movies home" [ref=e16] [cursor=pointer]:
+              - /url: /playwright-movies-app?category=Popular&page=1
+          - generic [ref=e17]:
+            - search [ref=e19]:
+              - button "Search for a movie" [ref=e300] [cursor=pointer]
+              - textbox "Search for a movie" [active] [ref=e303]:
+                - /placeholder: Search for a movie...
+            - generic [ref=e20]:
+              - button "Enable light mode" [ref=e21] [cursor=pointer]: ☀
+              - generic [ref=e22]:
+                - checkbox "Dark mode" [ref=e23] [cursor=pointer]
+                - generic [ref=e24] [cursor=pointer]: Dark mode
+              - button "Enable dark mode" [ref=e25] [cursor=pointer]: ☾
+            - button "Log In" [ref=e26] [cursor=pointer]
+      - main [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - heading "Popular" [level=1] [ref=e33]
+            - heading "movies" [level=2] [ref=e34]
+          - list "movies" [ref=e35]:
+            - listitem "movie" [ref=e36]:
+              - 'link "Avatar: Fire and Ash" [ref=e84] [cursor=pointer]':
+                - /url: /playwright-movies-app/movie?id=83533&page=1
+                - 'img "poster of Avatar: Fire and Ash" [ref=e88]'
+                - 'heading "Avatar: Fire and Ash" [level=2] [ref=e90]'
+            - listitem "movie" [ref=e38]:
+              - 'link "Wicked: For Good" [ref=e91] [cursor=pointer]':
+                - /url: /playwright-movies-app/movie?id=967941&page=1
+                - 'img "poster of Wicked: For Good" [ref=e95]'
+                - 'heading "Wicked: For Good" [level=2] [ref=e97]'
+            - listitem "movie" [ref=e40]:
+              - link "Zootopia 2" [ref=e98] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=1084242&page=1
+                - img "poster of Zootopia 2" [ref=e102]
+                - heading "Zootopia 2" [level=2] [ref=e104]
+            - listitem "movie" [ref=e42]:
+              - link "Superman" [ref=e105] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=1061474&page=1
+                - img "poster of Superman" [ref=e109]
+                - generic [ref=e110]:
+                  - heading "Superman" [level=2] [ref=e111]
+                  - generic "rating" [ref=e113]:
+                    - generic [ref=e114]:
+                      - generic [ref=e115]: ★
+                      - generic [ref=e116]: ★
+                      - generic [ref=e117]: ★
+                      - generic [ref=e118]: ★ ★
+                      - generic [ref=e119]: ★
+            - listitem "movie" [ref=e44]:
+              - link "F1" [ref=e120] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=911430&page=1
+                - img "poster of F1" [ref=e124]
+                - generic [ref=e125]:
+                  - heading "F1" [level=2] [ref=e126]
+                  - generic "rating" [ref=e128]:
+                    - generic [ref=e129]:
+                      - generic [ref=e130]: ★
+                      - generic [ref=e131]: ★
+                      - generic [ref=e132]: ★
+                      - generic [ref=e133]: ★ ★
+                      - generic [ref=e134]: ★
+            - listitem "movie" [ref=e46]:
+              - 'link "The Fantastic 4: First Steps" [ref=e135] [cursor=pointer]':
+                - /url: /playwright-movies-app/movie?id=617126&page=1
+                - 'img "poster of The Fantastic 4: First Steps" [ref=e139]'
+                - generic [ref=e140]:
+                  - 'heading "The Fantastic 4: First Steps" [level=2] [ref=e141]'
+                  - generic "rating" [ref=e143]:
+                    - generic [ref=e144]:
+                      - generic [ref=e145]: ★
+                      - generic [ref=e146]: ★
+                      - generic [ref=e147]: ★
+                      - generic [ref=e148]: ★ ★
+                      - generic [ref=e149]: ★
+            - listitem "movie" [ref=e48]:
+              - link "A Minecraft Movie" [ref=e150] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=950387&page=1
+                - img "poster of A Minecraft Movie" [ref=e154]
+                - generic [ref=e155]:
+                  - heading "A Minecraft Movie" [level=2] [ref=e156]
+                  - generic "rating" [ref=e158]:
+                    - generic [ref=e159]:
+                      - generic [ref=e160]: ★
+                      - generic [ref=e161]: ★
+                      - generic [ref=e162]: ★
+                      - generic [ref=e163]: ★
+                      - generic [ref=e164]: ★
+            - listitem "movie" [ref=e50]:
+              - link "Jurassic World Rebirth" [ref=e165] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=1234821&page=1
+                - img "poster of Jurassic World Rebirth" [ref=e169]
+                - generic [ref=e170]:
+                  - heading "Jurassic World Rebirth" [level=2] [ref=e171]
+                  - generic "rating" [ref=e173]:
+                    - generic [ref=e174]:
+                      - generic [ref=e175]: ★
+                      - generic [ref=e176]: ★
+                      - generic [ref=e177]: ★
+                      - generic [ref=e178]: ★
+                      - generic [ref=e179]: ★
+            - listitem "movie" [ref=e52]:
+              - 'link "Mission: Impossible - The Final Reckoning" [ref=e180] [cursor=pointer]':
+                - /url: /playwright-movies-app/movie?id=575265&page=1
+                - 'img "poster of Mission: Impossible - The Final Reckoning" [ref=e184]'
+                - generic [ref=e185]:
+                  - 'heading "Mission: Impossible - The Final Reckoning" [level=2] [ref=e186]'
+                  - generic "rating" [ref=e188]:
+                    - generic [ref=e189]:
+                      - generic [ref=e190]: ★
+                      - generic [ref=e191]: ★
+                      - generic [ref=e192]: ★
+                      - generic [ref=e193]: ★ ★
+                      - generic [ref=e194]: ★
+            - listitem "movie" [ref=e54]:
+              - link "Thunderbolts*" [ref=e195] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=986056&page=1
+                - img "poster of Thunderbolts*" [ref=e199]
+                - generic [ref=e200]:
+                  - heading "Thunderbolts*" [level=2] [ref=e201]
+                  - generic "rating" [ref=e203]:
+                    - generic [ref=e204]:
+                      - generic [ref=e205]: ★
+                      - generic [ref=e206]: ★
+                      - generic [ref=e207]: ★
+                      - generic [ref=e208]: ★ ★
+                      - generic [ref=e209]: ★
+            - listitem "movie" [ref=e56]:
+              - link "How to Train Your Dragon" [ref=e210] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=1087192&page=1
+                - img "poster of How to Train Your Dragon" [ref=e214]
+                - generic [ref=e215]:
+                  - heading "How to Train Your Dragon" [level=2] [ref=e216]
+                  - generic "rating" [ref=e218]:
+                    - generic [ref=e219]:
+                      - generic [ref=e220]: ★
+                      - generic [ref=e221]: ★
+                      - generic [ref=e222]: ★
+                      - generic [ref=e223]: ★ ★
+                      - generic [ref=e224]: ★
+            - listitem "movie" [ref=e58]:
+              - link "Wicked" [ref=e225] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=402431&page=1
+                - img "poster of Wicked" [ref=e229]
+                - generic [ref=e230]:
+                  - heading "Wicked" [level=2] [ref=e231]
+                  - generic "rating" [ref=e233]:
+                    - generic [ref=e234]:
+                      - generic [ref=e235]: ★
+                      - generic [ref=e236]: ★
+                      - generic [ref=e237]: ★
+                      - generic [ref=e238]: ★ ★
+                      - generic [ref=e239]: ★
+            - listitem "movie" [ref=e60]:
+              - link "Sinners" [ref=e240] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=1233413&page=1
+                - img "poster of Sinners" [ref=e244]
+                - generic [ref=e245]:
+                  - heading "Sinners" [level=2] [ref=e246]
+                  - generic "rating" [ref=e248]:
+                    - generic [ref=e249]:
+                      - generic [ref=e250]: ★
+                      - generic [ref=e251]: ★
+                      - generic [ref=e252]: ★
+                      - generic [ref=e253]: ★ ★
+                      - generic [ref=e254]: ★
+            - listitem "movie" [ref=e62]:
+              - link "Moana 2" [ref=e255] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=1241982&page=1
+                - img "poster of Moana 2" [ref=e259]
+                - generic [ref=e260]:
+                  - heading "Moana 2" [level=2] [ref=e261]
+                  - generic "rating" [ref=e263]:
+                    - generic [ref=e264]:
+                      - generic [ref=e265]: ★
+                      - generic [ref=e266]: ★
+                      - generic [ref=e267]: ★
+                      - generic [ref=e268]: ★ ★
+                      - generic [ref=e269]: ★
+            - listitem "movie" [ref=e64]:
+              - 'link "Captain America: Brave New World" [ref=e270] [cursor=pointer]':
+                - /url: /playwright-movies-app/movie?id=822119&page=1
+                - 'img "poster of Captain America: Brave New World" [ref=e274]'
+                - generic [ref=e275]:
+                  - 'heading "Captain America: Brave New World" [level=2] [ref=e276]'
+                  - generic "rating" [ref=e278]:
+                    - generic [ref=e279]:
+                      - generic [ref=e280]: ★
+                      - generic [ref=e281]: ★
+                      - generic [ref=e282]: ★
+                      - generic [ref=e283]: ★
+                      - generic [ref=e284]: ★
+            - listitem "movie" [ref=e66]:
+              - link "Gladiator II" [ref=e285] [cursor=pointer]:
+                - /url: /playwright-movies-app/movie?id=558449&page=1
+                - img "poster of Gladiator II" [ref=e289]
+                - generic [ref=e290]:
+                  - heading "Gladiator II" [level=2] [ref=e291]
+                  - generic "rating" [ref=e293]:
+                    - generic [ref=e294]:
+                      - generic [ref=e295]: ★
+                      - generic [ref=e296]: ★
+                      - generic [ref=e297]: ★
+                      - generic [ref=e298]: ★
+                      - generic [ref=e299]: ★
+            - listitem "movie" [ref=e68]
+            - listitem "movie" [ref=e70]
+            - listitem "movie" [ref=e72]
+            - listitem "movie" [ref=e74]
+          - link [ref=e77] [cursor=pointer]:
+            - /url: /playwright-movies-app?category=Popular&page=2
+            - button "Page 2" [ref=e78]
+  - alert [ref=e83]: Please wait a moment. Movies

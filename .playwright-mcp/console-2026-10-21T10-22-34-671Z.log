@@ -1,0 +1,17 @@
+[    1679ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://debs-obrien.github.io/light-manifest.webmanifest:0
+[    1679ms] [ERROR] Manifest fetch from https://debs-obrien.github.io/light-manifest.webmanifest failed, code 404 @ https://debs-obrien.github.io/playwright-movies-app/:0
+[    1695ms] [LOG] [Home useEffect - no initial category name & no initial page] query parameter update: newCategoryName, newPage =>  Popular 1 @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/04-gs8z1s6o2g.js:0
+[    1787ms] [LOG] [Home useEffect - initial category name and initial page] no query parameter update @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/04-gs8z1s6o2g.js:0
+[    1788ms] [WARNING] Listener must be a named function. @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/37ol8vr1igom1.js:0
+[    1789ms] [WARNING] Listener must be a named function. @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/37ol8vr1igom1.js:0
+[    1790ms] [WARNING] Listener must be a named function. @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/37ol8vr1igom1.js:0
+[    1790ms] [WARNING] Listener must be a named function. @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/37ol8vr1igom1.js:0
+[    1971ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://debs-obrien.github.io/light-manifest.webmanifest:0
+[    2098ms] [ERROR] Manifest fetch from https://debs-obrien.github.io/light-manifest.webmanifest failed, code 404 @ https://debs-obrien.github.io/playwright-movies-app?category=Popular&page=1:0
+[    2101ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://debs-obrien.github.io/light-favicon-32x32.png:0
+[    2103ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://debs-obrien.github.io/light-favicon-32x32.png:0
+[    2430ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://debs-obrien.github.io/light-favicon-16x16.png:0
+[  171347ms] [WARNING] Listener must be a named function. @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/37ol8vr1igom1.js:0
+[  171347ms] [WARNING] Listener must be a named function. @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/37ol8vr1igom1.js:0
+[  171348ms] [WARNING] Listener must be a named function. @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/37ol8vr1igom1.js:0
+[  171348ms] [WARNING] Listener must be a named function. @ https://debs-obrien.github.io/playwright-movies-app/_next/static/chunks/37ol8vr1igom1.js:0

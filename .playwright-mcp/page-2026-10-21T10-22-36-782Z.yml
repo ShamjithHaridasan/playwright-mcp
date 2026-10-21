@@ -1,0 +1,58 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - text: This is a demo intended for testing. Data and images are provided by
+      - link "TMDB" [ref=e5] [cursor=pointer]:
+        - /url: https://www.themoviedb.org
+      - text: .
+    - generic [ref=e7]:
+      - banner [ref=e8]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - button "Open navigation menu" [ref=e12] [cursor=pointer]
+            - link "Movies home" [ref=e16] [cursor=pointer]:
+              - /url: /playwright-movies-app?category=Popular&page=1
+          - generic [ref=e17]:
+            - search [ref=e19] [cursor=pointer]:
+              - button "Search for a movie"
+              - textbox "Search for a movie":
+                - /placeholder: Search for a movie...
+            - generic [ref=e20]:
+              - button "Enable light mode" [ref=e21] [cursor=pointer]: ☀
+              - generic [ref=e22]:
+                - checkbox "Dark mode" [ref=e23] [cursor=pointer]
+                - generic [ref=e24] [cursor=pointer]: Dark mode
+              - button "Enable dark mode" [ref=e25] [cursor=pointer]: ☾
+            - button "Log In" [ref=e26] [cursor=pointer]
+      - main [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - heading "Popular" [level=1] [ref=e33]
+            - heading "movies" [level=2] [ref=e34]
+          - list "movies" [ref=e35]:
+            - listitem "movie" [ref=e36]
+            - listitem "movie" [ref=e38]
+            - listitem "movie" [ref=e40]
+            - listitem "movie" [ref=e42]
+            - listitem "movie" [ref=e44]
+            - listitem "movie" [ref=e46]
+            - listitem "movie" [ref=e48]
+            - listitem "movie" [ref=e50]
+            - listitem "movie" [ref=e52]
+            - listitem "movie" [ref=e54]
+            - listitem "movie" [ref=e56]
+            - listitem "movie" [ref=e58]
+            - listitem "movie" [ref=e60]
+            - listitem "movie" [ref=e62]
+            - listitem "movie" [ref=e64]
+            - listitem "movie" [ref=e66]
+            - listitem "movie" [ref=e68]
+            - listitem "movie" [ref=e70]
+            - listitem "movie" [ref=e72]
+            - listitem "movie" [ref=e74]
+          - link [ref=e77] [cursor=pointer]:
+            - /url: /playwright-movies-app?category=Popular&page=2
+            - button "Page 2" [ref=e78]
+  - alert [ref=e83]: Please wait a moment. Movies
